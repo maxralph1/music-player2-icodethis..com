@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+body {
+    font-family: 'Raleway Dots', cursive;
+}
+
+.card {
+    height: 500px; 
+    width: 300px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.top-half {
+    background-color: #1b1a1be8; 
+    padding: 10px 13.5px 14px; 
+}
+
+.top-half .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.back-arrow, .menu-button {
+    border: 0.45px solid #f5f5f56b;
+    padding: 0.6rem;
+    border-radius: 100%;
+}
+
+.album-cover {
+    margin-bottom: 1.5rem;
+}
+
+.album-cover img {
+    display: block;
+    width: 55%; 
+    margin: 0 auto; 
+}
+
+.current-track-details {
+    line-height: 0.15;
+    text-align: center;
+}
+
+.current-track-details .album-title {
+    font-size: 300;
+    font-weight: 900;
+}
+
+.current-track-details .track-title {
+    font-size: x-small;
+    font-weight: 100;
+}
+
+
+.divider {
+
+}
+
+.divider .time-icon {
+
+}
+
+
+.bottom-half {
+    background-color: #484949e8; 
+    padding: 20px; 
+}
+
+.bottom-half .time {
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    font-size: xx-small;
+}
+
+.bottom-half .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 1.2rem;
+}
+
+.bottom-half .buttons .button {
+    border: 0.45px solid #59b3f070;
+    padding: 0.8rem;
+    border-radius: 100%; 
+    margin-bottom: 10px;
+}
+
+.bottom-half .track-selection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-half .track-selection .track-details {
+    flex-basis: 245px;
+}
+
+.bottom-half .track-selection .track-details .track {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 0.1rem solid #1517189a;
+}
+
+.bottom-half .track-selection .side-scroll {
+    border-left: 1px solid black;
+    height: 165px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
